@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form cơ bản</title>
+</head>
+<body>
+<h1>Order Form</h1>
+<p1>What would you like to buy?</p1>
+<br>
+    <select name="product" id="product">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+    </select><br>
+<p2>How many would like to order?</p2>
+<br>
+    <input type="radio" id="gia1" value="10$">
+    <label for="gia1">1 - 10$</label><br>
+    <input type="radio" id="gia2" value="20$">
+    <label for="gia2">2 - 20$</label><br>
+    <input type="radio" id="gia3" value="25$">
+    <label for="gia3">3 - 25$</label><br>
+<p3>Name</p3>
+<p4 style="color: red">*</p4>
+<br>
+    <input type="text" id="fname" value="FirstName" name="fname">
+    <input type="text" id="lname" value="LastName" name="lname"><br>
+<p5>Email</p5>
+<br>
+    <input type="text" id="mail" style="width: 27%"><br>
+<p6>Phone Number</p6>
+<br>
+    <input type="text" id="phone1" style="width: 40px">-
+    <input type="text" id="phone2" style="width: 40px">-
+    <input type="text" id="phone3" style="width: 40px" ><br><br>
+<input type="submit" value="Submit" onclick="alert('Dang ky xong')">
+
+</body>
+</html>
